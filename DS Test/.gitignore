@@ -1,0 +1,9 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore output files
+*.ipynb_checkpoints
+*.html
+*.pdf
+*.csv
+# Add any other file patterns you want to ignore
