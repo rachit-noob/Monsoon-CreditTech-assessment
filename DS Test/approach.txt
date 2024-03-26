@@ -1,10 +1,7 @@
-# Monsoon-CreditTech-assessment
 
 
 
-
-
-## 1. Data Preprocessing
+1. Data Preprocessing
 
     a. Null Values
         1. Some cols have more than 81% of the values as null. Cannot fill these values without knowing about the cols. (with backfill for sequence, etc.)
@@ -30,7 +27,7 @@
 
 Performed an experiment, where I took 2 types of training data for model building as in Null Values section in data preprocessing.
 
-## 2. Model Building
+2. Model Building
     Build models using 5-Folds Cross Validation and Grid Search CV for parameter tuning.
 
     a. Logistic Regression and SVM and Decision Tree
