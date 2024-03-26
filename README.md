@@ -46,7 +46,7 @@ Performed an experiment, where I took 2 types of training data for model buildin
         data2 : Data with imputed null values and oversampled using SMOTE
         data3 : Data with filled null values using mode for cat cols and median for numerical cols.
 
-        Both the Random forest model and XGBoost model performed well on Data2.
+        Both the Random forest model and XGBoost model performed well on Data2. Achieved an accuracy of upto 90%.
         And the XGBoost model was performing slightly better.
         Hence trained a final XGBoost model.
 
