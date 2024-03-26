@@ -1,7 +1,7 @@
 # Monsoon-CreditTech-assessment
 
 
-
+# Approach
 
 
 ## 1. Data Preprocessing
