@@ -1,0 +1,41 @@
+Null Values
+    a. Some cols have more than 81% of the values as null. Cannot fill these values without knowing about the cols. (with backfill for sequence, etc.)
+    b. Some cols have ~13% of the values as null.
+
+    For these cols with null values, we cannot fill values (using, backfill, mean, mode, etc.) because no info about the cols are present.
+    Better to get rid of cols with high null values.
+    If the null values are less than 10%. We can consider experimenting. 
+    1. Experiment 1 : Fill those values and build model1. And remove those cols and build model2 and have a avg. voting model.
+    2. Experiment 2 : Fill those values and build model1. And remove those rows (incase of less null) and build model2 and have a avg. voting model.
+    3. Experiment 3 : Simply fill/remove the col values and build model.
+    4. Experiment 4 : Try filling values and see its impact on model.
+    
+    Not considering removing rows, since data points are less.
+
+
+
+
+
+Try going towards ensemble because the problem looks like bias. And also can be variance.
+
+
+
+
+
+
+
+
+
+____________________________________________________________________________
+
+1. Data Preprocessing
+    a. Null Values
+        data1 : Dropping cols with more than 50% null. And filling the rest. Median for Numeric, mode for cat.
+        
+    b. Imbalanced Dataset
+        data1 : Oversampling using SMOTE
+        data2 : Using robust algo like ensemble
+
+    
+
+
